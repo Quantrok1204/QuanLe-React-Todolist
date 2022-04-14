@@ -14,7 +14,7 @@ export class Todolist extends Component{
             <div className="toDoItem">
                 <input className="check" id={todo.id} type="checkbox" checked={todo.status} 
                     onChange={(event) => this.handleChecked(event.target.checked, todo )}/>
-                <label htmlFor={todo.id}></label>
+//                 <label htmlFor={todo.id}></label>
                 <input onChange={this.handleEdit.bind(this, todo)} type="text" ref="todo1" value={todo.title}/>
                 <span className="delete button" onClick={this.remove.bind(this, todo)}>✖</span>
             </div>
