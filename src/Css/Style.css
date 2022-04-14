@@ -130,7 +130,7 @@ div {
 .selectall{
     font-size: 22px;
     font-weight: bold; 
-    color: rgb(0, 255, 34);
+    color: yellow;
 }
 
 input[type="submit"] {
